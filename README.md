@@ -2,9 +2,15 @@
 
 **ICESI · Máster en Inteligencia Artificial Aplicada**
 
-Exploración de técnicas de regularización en modelos lineales: **Ridge (L2)**, **Lasso (L1)** y **Elastic Net**, y su efecto sobre el sesgo y la varianza del modelo.
+Exploración de técnicas de regularización en modelos de regresión: **Ridge (L2)**, **Lasso (L1)** y **Elastic Net**, y su efecto sobre el sesgo y la varianza, en un notebook de Jupyter con visualizaciones.
 
-## Contenido
+## Tecnologías
+
+- Python 3
+- Jupyter Notebook
+- numpy, pandas, matplotlib, scikit-learn
+
+## Estructura
 
 | Archivo | Descripción |
 |---|---|
@@ -18,13 +24,18 @@ Exploración de técnicas de regularización en modelos lineales: **Ridge (L2)**
 | `auto-mpg.csv` | Dataset: consumo de combustible (Auto MPG) |
 | `winequality-red.csv` | Dataset: calidad de vino tinto |
 
-## Requisitos
+## Instalación
 
-- Python 3
-- `numpy`, `pandas`, `matplotlib`, `scikit-learn`
+```bash
+pip install numpy pandas matplotlib scikit-learn jupyter
+```
 
 ## Uso
 
 ```bash
 jupyter notebook regularization.ipynb
 ```
+
+## Licencia
+
+MIT
