@@ -18,6 +18,14 @@ Exploración de técnicas de regularización en modelos lineales: **Ridge (L2)**
 | `auto-mpg.csv` | Dataset: consumo de combustible (Auto MPG) |
 | `winequality-red.csv` | Dataset: calidad de vino tinto |
 
+## Temas, tecnologías y notebooks
+
+Cada notebook enlaza a su archivo en GitHub.
+
+| Tema | Tecnologías | Notebooks |
+|---|---|---|
+| Regularización Ridge, LASSO y Elastic-Net | scikit-learn | [regularization.ipynb](https://github.com/Pipicano25/icesi-sem-1-regularizacion/blob/main/regularization.ipynb) |
+
 ## Requisitos
 
 - Python 3
